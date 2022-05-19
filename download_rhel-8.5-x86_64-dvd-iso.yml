@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  become: no 
+
+  roles:
+     - RHEL8.5_iso_download
