@@ -37,4 +37,4 @@
    - name: Getting Started with Red Hat Management Portfolio
      debug: msg={{ post_install_message.split('\n') }}
    - pause:
-        seconds: 10
+        seconds: 110
