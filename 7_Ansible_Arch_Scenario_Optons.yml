@@ -28,4 +28,4 @@
     - name: Supported Installation Scenarios
       debug: msg={{ post_install_message.split('\n') }}
     - pause:
-        seconds: 10
+        seconds: 30
