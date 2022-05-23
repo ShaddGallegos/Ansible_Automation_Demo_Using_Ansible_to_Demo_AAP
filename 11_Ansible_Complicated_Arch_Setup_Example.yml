@@ -101,4 +101,4 @@
     - name: Ansible Arch 2
       debug: msg={{ post_install_message.split('\n') }}
     - pause:
-        seconds: 10
+        seconds: 60
